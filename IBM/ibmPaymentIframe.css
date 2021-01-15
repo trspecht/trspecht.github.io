@@ -1,22 +1,23 @@
+.body {
+  background-color: #005daa;
+}
+.cardBody {
+  padding: 0 2.143em 1.25em 2.143em;
+}
 .inputContainer input,
 input {
-  color: #213b73 !important;
+  background-color: #213b73 !important;
   padding-top: 30px !important;
-  width: 290px !important;
   position: absolute !important;
   z-index: 1 !important;
-  left: 5px;
+  left: 0px;
   padding-bottom: 7px;
   padding-left: 10px;
 }
 .inputContainer input:focus,
 input:focus {
-  border-bottom: #8c4c solid 3px !important;
+  border-bottom: #fff solid 2px !important;
   padding-bottom: 7px !important;
-  left: -1px !important;
-  padding-left: 10px !important;
-  z-index: 1 !important;
-  border-left: #cd94ff solid 6px !important;
 }
 .error input {
   border-bottom: #f55564 solid 3px !important;
@@ -42,19 +43,13 @@ input:focus {
   float: left !important;
 }
 .inputContainer {
-  border: 1px solid #939db7 !important;
+  border: none !important;
   height: 63px !important;
   border-radius: 1px !important;
   font-size: 17px !important;
 }
-.inputContainer:focus-within .labelContainer {
-  color: #cd94ff !important;
-}
 .placeHolderLabel {
   display: none !important;
-}
-.cardBody {
-  padding: 0 !important;
 }
 .expirationDateCvcholder,
 .holder {
@@ -84,9 +79,10 @@ input:focus {
   margin-top: 15px !important;
 }
 .labelContainer {
+  //
   font-weight: 700 !important;
   margin-top: 3px !important;
-  color: #213b73 !important;
+  color: #fff !important;
   opacity: 1 !important;
   position: absolute;
   z-index: 2;
@@ -95,27 +91,40 @@ input:focus {
   font-size: 12px !important;
   display: inline-block !important;
   margin-top: 8px !important;
-  color: #213b73;
+  color: #d3d8e2;
+  font-weight: 600;
 }
 .labelContainer:before {
   content: "" !important;
-  width: 5px !important;
+  width: 0px !important;
   height: 61px !important;
-  background-color: #d3d8e2 !important;
   display: block !important;
   position: absolute !important;
   top: -3px !important;
   left: -12px !important;
   z-index: 1 !important;
 }
+.labelContainer:after {
+  content: "" !important;
+  width: 0px !important;
+  height: 61px !important;
+  display: block !important;
+  background-color: #005daa;
+  position: absolute !important;
+  top: -3px !important;
+  left: -12px !important;
+  z-index: 1 !important;
+}
 .commandButton {
+  display: none;
   font-weight: 700 !important;
   min-width: 230px !important;
   font-size: 17px;
   padding: 5px 0 !important;
-  background-color: #f55564 !important;
+  color: #005daa;
+  background-color: #fff !important;
   height: 100% !important;
 }
 .cvcInfoLink {
-  margin-top: 21px !important;
+  display: none;
 }
