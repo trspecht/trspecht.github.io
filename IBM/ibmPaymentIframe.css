@@ -5,6 +5,7 @@
 .inputContainer input,
 input {
   background-color: #213b73 !important;
+  border-bottom: white solid 1px !important;
   color: white !important;
   padding-top: 30px !important;
   position: absolute !important;
@@ -15,13 +16,11 @@ input {
 }
 .inputContainer input:focus,
 input:focus {
-  border-bottom: #fff solid 2px !important;
+  border-bottom: #fef100 solid 2px !important;
   padding-bottom: 7px !important;
 }
 .error input {
-  border-bottom: #f55564 solid 3px !important;
-  border-left: #fd8585 solid 6px !important;
-  padding-left: 12px !important;
+  border-bottom: #f55564 solid 2px !important;
   left: -1px !important;
   padding-bottom: 7px !important;
   z-index: 100 !important;
