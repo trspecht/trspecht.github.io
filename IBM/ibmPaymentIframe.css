@@ -17,7 +17,7 @@ img.cardLogo {
 }
 .inputContainer input,
 input {
-  height: 28px !important;
+  height: 1.8em !important;
   background-color: #213b73 !important;
   border-bottom: white solid 1px !important;
   color: white !important;
@@ -149,4 +149,13 @@ input:-webkit-autofill {
 .cardBody .recaptchaContainer,
 .twoCardContainer .recaptchaContainer {
   padding-top: unset !important;
+}
+div.continueButton,
+.mobileclose,
+.dialogBox .buttonHolder .commandButton,
+.dialogBox .buttonHolder .commandButton:hover,
+.dialogBox .buttonContainer .button,
+.dialogBox .buttonContainer .button:hover,
+.dialogBox .mobileclose.commandButton {
+  display: none !important;
 }
