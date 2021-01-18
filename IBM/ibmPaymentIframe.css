@@ -2,6 +2,16 @@
   background-color: #005daa !important;
   padding: 0 2.143em 1.25em 2.143em !important;
 }
+.cardLogo {
+  margin-right: 0.5em;
+}
+img.cardLogo {
+  vertical-align: middle;
+  height: 1.2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+  background: white;
+}
 .inputContainer input,
 input {
   background-color: #213b73 !important;
@@ -46,10 +56,11 @@ input:-webkit-autofill {
   float: left !important;
 }
 .inputContainer {
+  background-color: transparent !important;
   border: none !important;
   height: 63px !important;
   border-radius: 1px !important;
-  font-size: 17px !important;
+  font-size: 14px !important;
 }
 .placeHolderLabel {
   display: none !important;
