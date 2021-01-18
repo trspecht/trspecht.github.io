@@ -1,3 +1,6 @@
+.paymentBodyWrapper {
+  background-color: #005daa !important;
+}
 .cardBody {
   background-color: #005daa !important;
   padding: 0 2.143em 1.25em 1.25em !important;
@@ -14,6 +17,7 @@ img.cardLogo {
 }
 .inputContainer input,
 input {
+  height: 28px !important;
   background-color: #213b73 !important;
   border-bottom: white solid 1px !important;
   color: white !important;
@@ -21,6 +25,7 @@ input {
   position: absolute !important;
   z-index: 1 !important;
   left: 0px;
+  border-radius: unset !important;
   padding-bottom: 7px;
   padding-left: 10px;
 }
@@ -58,8 +63,8 @@ input:-webkit-autofill {
 .inputContainer {
   background-color: transparent !important;
   border: none !important;
-  height: 63px !important;
-  border-radius: 1px !important;
+  height: 72px !important;
+  border-radius: 4px !important;
   font-size: 14px !important;
 }
 .placeHolderLabel {
@@ -140,4 +145,8 @@ input:-webkit-autofill {
 }
 .cvcInfoLink {
   display: none;
+}
+.cardBody .recaptchaContainer,
+.twoCardContainer .recaptchaContainer {
+  padding-top: unset !important;
 }
