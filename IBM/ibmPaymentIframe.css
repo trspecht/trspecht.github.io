@@ -1,6 +1,6 @@
 .cardBody {
   background-color: #005daa !important;
-  padding: 0 2.143em 1.25em 2.143em;
+  padding: 0 2.143em 1.25em 2.143em !important;
 }
 .inputContainer input,
 input {
@@ -24,6 +24,11 @@ input:focus {
   left: -1px !important;
   padding-bottom: 7px !important;
   z-index: 100 !important;
+}
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #213b73 inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px #213b73 inset !important;
+  -webkit-text-fill-color: white !important;
 }
 .header {
   display: none !important;
@@ -77,7 +82,6 @@ input:focus {
   margin-top: 15px !important;
 }
 .labelContainer {
-  //
   font-weight: 700 !important;
   margin-top: 3px !important;
   color: #fff !important;
