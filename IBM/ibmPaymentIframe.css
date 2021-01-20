@@ -1,3 +1,10 @@
+@media screen and (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
 .paymentBodyWrapper {
   background-color: #005daa !important;
   margin-bottom: -8em !important;
@@ -157,4 +164,8 @@ input:-webkit-autofill {
 .cardBody .recaptchaContainer,
 .twoCardContainer .recaptchaContainer {
   padding-top: unset !important;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("file:///android_asset/fonts/");
 }
