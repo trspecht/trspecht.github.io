@@ -1,5 +1,6 @@
 .paymentBodyWrapper {
   background-color: #005daa !important;
+  margin-bottom: -8em !important;
 }
 .cardBody {
   background-color: #005daa !important;
@@ -134,14 +135,21 @@ input:-webkit-autofill {
   z-index: 1 !important;
 }
 .commandButton {
-  display: none;
+  visibility: hidden;
+  position: relative;
+}
+.commandButton:after {
+  visibility: visible !important;
+  position: absolute !important;
+  top: 0;
+  left: 0;
   font-weight: 700 !important;
-  min-width: 230px !important;
+  width: 100% !important;
   font-size: 17px;
-  padding: 5px 0 !important;
-  color: #005daa;
-  background-color: #fff !important;
-  height: 100% !important;
+  padding: 5px !important;
+  color: #8c4c9e !important;
+  background-color: white !important;
+  content: "Submit and Pay" !important;
 }
 .cvcInfoLink {
   display: none;
@@ -149,13 +157,4 @@ input:-webkit-autofill {
 .cardBody .recaptchaContainer,
 .twoCardContainer .recaptchaContainer {
   padding-top: unset !important;
-}
-div.continueButton,
-.mobileclose,
-.dialogBox .buttonHolder .commandButton,
-.dialogBox .buttonHolder .commandButton:hover,
-.dialogBox .buttonContainer .button,
-.dialogBox .buttonContainer .button:hover,
-.dialogBox .mobileclose.commandButton {
-  display: none !important;
 }
