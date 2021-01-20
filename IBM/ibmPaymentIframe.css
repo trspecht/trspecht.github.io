@@ -1,3 +1,10 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px !important;
+  }
+}
 input[type="text"],
 input[type="number"],
 input {
@@ -146,7 +153,7 @@ input:-webkit-autofill {
 .commandButton:after {
   visibility: visible !important;
   position: absolute !important;
-  top: 0;
+  top: 20px;
   left: 0;
   font-weight: 700 !important;
   width: 100% !important;
