@@ -15,7 +15,7 @@ input {
 }
 .paymentBodyWrapper {
   background-color: #005daa !important;
-  /* margin-bottom: -8em !important; */
+  /*   margin-bottom: -8em !important; */
 }
 .cardBody {
   background-color: #005daa !important;
@@ -76,7 +76,7 @@ input:-webkit-autofill {
   border: none !important;
 }
 .right {
-  float: left !important;
+  /* float: left !important; */
 }
 .inputContainer {
   background-color: transparent !important;
@@ -157,12 +157,12 @@ input:-webkit-autofill {
 .commandButton {
   visibility: hidden;
   position: relative;
-  height: 3em !important;
+  height: 5em !important;
+  width: 90%;
 }
 .commandButton:after {
   visibility: visible !important;
-  position: sticky !important;
-  top: 20px;
+  position: absolute !important;
   left: 0;
   font-weight: 700 !important;
   width: 97.5% !important;
