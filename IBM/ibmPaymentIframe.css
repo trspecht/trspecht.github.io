@@ -24,7 +24,7 @@ input {
 .cardLogo {
   margin-right: 0.5em;
 }
-.securityLogoHolder {
+#securityLogoHolder {
   display: none !important;
 }
 img.cardLogo {
