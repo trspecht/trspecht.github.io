@@ -189,6 +189,7 @@ input:-webkit-autofill {
 .cardBody .recaptchaContainer,
 .twoCardContainer .recaptchaContainer {
   padding-top: unset !important;
+  position: relative !important;
   margin-bottom: 100px;
 }
 @font-face {
