@@ -1,0 +1,197 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px !important;
+  }
+}
+html {
+  background-color: #005daa !important;
+}
+input[type="text"],
+input[type="number"],
+input {
+  font-size: 16px !important;
+}
+.content {
+  background-color: #005daa !important;
+}
+.paymentBodyWrapper {
+  background-color: #005daa !important;
+}
+.cardBody {
+  background-color: #005daa !important;
+  padding: 0 2.143em 1.25em 1.25em !important;
+}
+.cardLogo {
+  margin-right: 0.5em;
+}
+#securityLogoHolder {
+  display: none !important;
+}
+img.cardLogo {
+  vertical-align: middle;
+  height: 1.2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+  background: white;
+}
+.inputContainer input,
+input {
+  height: 1.8em !important;
+  background-color: #213b73 !important;
+  border-bottom: white solid 1px !important;
+  color: white !important;
+  padding-top: 30px !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  left: 0px;
+  border-radius: unset !important;
+  padding-bottom: 7px;
+  padding-left: 10px;
+}
+.inputContainer input:focus,
+input:focus {
+  border-bottom: #fef100 solid 2px !important;
+  padding-bottom: 7px !important;
+}
+.error input {
+  border-bottom: #f55564 solid 2px !important;
+  left: -1px !important;
+  padding-bottom: 7px !important;
+}
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #213b73 inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px #213b73 inset !important;
+  -webkit-text-fill-color: white !important;
+}
+.header {
+  display: none !important;
+}
+.pageOpen {
+  border: none !important;
+}
+.paymentHeader {
+  display: none !important;
+}
+.paymentHeader .active {
+  border: none !important;
+}
+.right {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: #005daa;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5) !important;
+}
+.inputContainer {
+  background-color: transparent !important;
+  border: none !important;
+  height: 72px !important;
+  border-radius: 4px !important;
+  font-size: 14px !important;
+}
+.placeHolderLabel {
+  display: none !important;
+}
+.expirationDateCvcholder,
+.holder {
+  max-width: 100%;
+}
+.expirationDateCvcholder .holder.cardCvCHolder {
+  display: block;
+  max-width: 100%;
+}
+.expirationDateCvcholder .holder.cardCvCHolder .inputContainer {
+  display: block;
+}
+.expirationDateCvcholder
+  .holder.cardCvCHolder
+  .inputContainer.cvcInput.valid
+  ~ .cvcInfoLinkHolder {
+  display: none;
+}
+.expirationDateCvcholder .holder.cardCvCHolder .cvcInfoLinkHolder {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.buttonHolder {
+  margin: 0 !important;
+  flex: 1;
+}
+.labelContainer {
+  font-weight: 700 !important;
+  margin-top: 3px !important;
+  color: #fff !important;
+  opacity: 1 !important;
+  position: absolute;
+  z-index: 2;
+}
+.labelContainer label {
+  font-size: 12px !important;
+  display: inline-block !important;
+  margin-top: 8px !important;
+  color: #d3d8e2;
+  font-weight: 600;
+}
+.labelContainer:before {
+  content: "" !important;
+  width: 0px !important;
+  height: 61px !important;
+  display: block !important;
+  position: absolute !important;
+  top: -3px !important;
+  left: -12px !important;
+  z-index: 1 !important;
+}
+.labelContainer:after {
+  content: "" !important;
+  width: 0px !important;
+  height: 61px !important;
+  display: block !important;
+  background-color: #005daa;
+  position: absolute !important;
+  top: -3px !important;
+  left: -12px !important;
+  z-index: 1 !important;
+}
+.inputContainer.error label {
+  color: #f55564 !important;
+}
+.commandButton {
+  visibility: hidden !important;
+  height: 80px !important;
+  line-height: 55px !important;
+}
+.commandButton:after {
+  visibility: visible !important;
+  position: absolute !important;
+  left: 10px;
+  right: 10px;
+  padding: 0px;
+  font-weight: 700 !important;
+  height: 55px;
+  font-size: 17px;
+  padding: 5px !important;
+  color: #8c4c9e !important;
+  background-color: white !important;
+  content: "Submit and Pay" !important;
+}
+.cvcInfoLink {
+  display: none;
+}
+.cardBody .recaptchaContainer,
+.twoCardContainer .recaptchaContainer {
+  padding-top: unset !important;
+  margin-bottom: 100px;
+}
+@font-face {
+  font-family: "Poppins-Regular" !important;
+  src: url("file:///android_asset/fonts/Poppins-Regular.otf") !important;
+}
