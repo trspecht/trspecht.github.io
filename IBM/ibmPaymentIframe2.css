@@ -193,6 +193,6 @@ input:-webkit-autofill {
   position: relative !important;
 }
 @font-face {
-  font-family: "Poppins-Regular" !important;
-  src: url("file:///android_asset/fonts/Poppins-Regular.otf") !important;
+  font-family: "Poppins-Regular";
+  src: url("file:///android_asset/fonts/Poppins-Regular.otf") format(opentype);
 }
