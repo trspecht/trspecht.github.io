@@ -80,11 +80,8 @@ input:-webkit-autofill {
 .right {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: sticky;
+  top: 0;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5) !important;
 }
 .inputContainer {
@@ -191,5 +188,5 @@ input:-webkit-autofill {
 }
 @font-face {
   font-family: "Poppins-Regular" !important;
-  src: url("file:///android_asset/fonts/") !important;
+  src: url("file:///android_asset/fonts/Poppins-Regular.otf") !important;
 }
