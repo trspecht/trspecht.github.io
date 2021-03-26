@@ -174,7 +174,7 @@ input:-webkit-autofill {
   position: absolute !important;
   left: 10px;
   right: 10px;
-  padding: 0px;
+  bottom: 20px;
   font-weight: 700 !important;
   height: 55px;
   font-size: 17px;
@@ -190,12 +190,8 @@ input:-webkit-autofill {
 .twoCardContainer .recaptchaContainer {
   padding-top: unset !important;
   position: relative !important;
-  margin-bottom: 100px;
 }
 @font-face {
   font-family: "Poppins-Regular" !important;
   src: url("file:///android_asset/fonts/Poppins-Regular.otf") !important;
-}
-body {
-  font-family: "Poppins-Regular";
 }
