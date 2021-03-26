@@ -81,6 +81,7 @@ input:-webkit-autofill {
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
+  height: 70px;
   width: 100%;
   z-index: 1000;
   background-color: #005daa;
@@ -178,7 +179,6 @@ input:-webkit-autofill {
   font-weight: 700 !important;
   height: 55px;
   font-size: 17px;
-  padding: 5px !important;
   color: #8c4c9e !important;
   background-color: white !important;
   content: "Submit and Pay" !important;
